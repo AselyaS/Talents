@@ -24,7 +24,6 @@ public class PageTalentTest extends BaseTest {
         loginPage = new LoginPage(driver);
         homePage = new DashboardPage(driver);
         newPage = new NewPage(driver);
-
     }
 
     @Test
@@ -46,9 +45,7 @@ public class PageTalentTest extends BaseTest {
 
         driver.quit();
 
-
-
-
+        
         //newPage.getPageNew();
 
 
