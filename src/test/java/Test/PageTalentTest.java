@@ -17,19 +17,13 @@ public class PageTalentTest extends BaseTest {
     private NewPage newPage;
     private String loginTitle="ProMytheUs - Sign In";
 
-
-
-
-
+    //comment
     @BeforeClass
     public void setUp() {
 
         loginPage = new LoginPage(driver);
         homePage = new DashboardPage(driver);
         newPage = new NewPage(driver);
-
-
-
 
     }
 
