@@ -7,7 +7,7 @@ public class BasePage {
 
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected String pageURL = "http://ec2-52-8-189-183.us-west-1.compute.amazonaws.com/sign-in.html";
+    protected String pageURL = "";
 
     public BasePage(WebDriver driver){
         this.driver = driver;
